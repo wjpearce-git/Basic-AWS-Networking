@@ -33,6 +33,7 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
+##### Trufflehog Test #####
 variable "api_key" {
   description = "API key for accessing the service"
   default     = "1234abcd-5678-efgh-9101-ijklmnopqrst"
