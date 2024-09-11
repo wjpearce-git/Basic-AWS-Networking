@@ -34,7 +34,7 @@ variable "instance_type" {
 }
 
 ##### Trufflehog Test #####
-variable "api_key" {
-  description = "API key for accessing the service"
-  default     = "sD9vzqdSsAOxntjAJ/qZ9sw+8PvEYg0r7D1Hhh0C"
+variable "creds" {
+  description = "Testing Server"
+  default = "http://user:password@192.168.0.1:8080"
 }
