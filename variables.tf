@@ -32,3 +32,8 @@ variable "instance_type" {
   description = "Instance type for the EC2 instance"
   default     = "t2.micro"
 }
+
+variable "api_key" {
+  description = "API key for accessing the service"
+  default     = "1234abcd-5678-efgh-9101-ijklmnopqrst"
+}
