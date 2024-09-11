@@ -36,5 +36,5 @@ variable "instance_type" {
 ##### Trufflehog Test #####
 variable "api_key" {
   description = "API key for accessing the service"
-  default     = "1234abcd-5678-efgh-9101-ijklmnopqrst"
+  default     = "sD9vzqdSsAOxntjAJ/qZ9sw+8PvEYg0r7D1Hhh0C"
 }
